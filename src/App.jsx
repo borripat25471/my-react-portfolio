@@ -84,7 +84,7 @@ export default function App() {
       {/* Navigation Bar */}
       <nav className="border-b border-slate-800/80 bg-slate-950/90 backdrop-blur-md fixed top-0 left-0 right-0 z-40 px-6 py-4 h-[65px]">
         <div className="max-w-6xl mx-auto flex justify-between items-center h-full">
-          <span className="text-xl font-extrabold text-white">Dev<span className="text-cyan-400">Portfolio.</span></span>
+          <span className="text-xl font-extrabold text-white">Dev<span className="text-cyan-400">Portfolio</span></span>
           <div className="flex gap-6 text-sm font-bold text-slate-300">
             <a href="#home" className="hover:text-cyan-400 transition">หน้าแรก</a>
             <a href="#skills" className="hover:text-cyan-400 transition">สกิล</a>
