@@ -80,11 +80,11 @@ export default function App() {
   );
 
   return (
-    <div className="bg-slate-950 text-slate-100 min-h-screen font-sans antialiased">
+    <div className="bg-slate-950 text-slate-100 font-sans antialiased">
       {/* Navigation Bar */}
       <nav className="border-b border-slate-800/80 bg-slate-950/90 backdrop-blur-md fixed top-0 left-0 right-0 z-40 px-6 py-4 h-[65px]">
         <div className="max-w-6xl mx-auto flex justify-between items-center h-full">
-          <span className="text-xl font-extrabold text-white">Dev<span className="text-cyan-400">Portfolio</span></span>
+          <span className="text-xl font-extrabold text-white">Dev<span className="text-cyan-400">Portfolio.</span></span>
           <div className="flex gap-6 text-sm font-bold text-slate-300">
             <a href="#home" className="hover:text-cyan-400 transition">หน้าแรก</a>
             <a href="#skills" className="hover:text-cyan-400 transition">สกิล</a>
@@ -94,8 +94,8 @@ export default function App() {
         </div>
       </nav>
 
-      {/* Hero Section (เต็ม 1 หน้าจอ) */}
-      <section id="home" className="min-h-screen flex flex-col justify-center items-center px-4 text-center max-w-4xl mx-auto pt-[65px]">
+      {/* Hero Section */}
+      <section id="home" className="h-screen snap-start flex flex-col justify-center items-center px-4 text-center max-w-4xl mx-auto pt-[65px]">
         <span className="text-cyan-400 text-xs font-semibold uppercase bg-cyan-950/80 px-3.5 py-1.5 rounded-full border border-cyan-800/60 mb-6">
           FRONT-END DEVELOPER SERVICES
         </span>
@@ -111,8 +111,8 @@ export default function App() {
         </button>
       </section>
 
-      {/* Tech Stack Section (เต็ม 1 หน้าจอ) */}
-      <section id="skills" className="min-h-screen flex flex-col justify-center items-center border-t border-b border-slate-800/80 bg-slate-900/40 px-6">
+      {/* Tech Stack Section */}
+      <section id="skills" className="h-screen snap-start flex flex-col justify-center items-center border-t border-b border-slate-800/80 bg-slate-900/40 px-6">
         <div className="max-w-6xl mx-auto text-center">
           <p className="text-sm font-semibold uppercase tracking-widest text-cyan-400 mb-8">TECHNOLOGIES & TOOLS I USE</p>
           <div className="flex flex-wrap justify-center gap-4 max-w-3xl mx-auto">
@@ -125,31 +125,36 @@ export default function App() {
         </div>
       </section>
 
-      {/* Services Section (เต็ม 1 หน้าจอ) */}
-      <section id="services" className="min-h-screen flex flex-col justify-center items-center py-24 px-6 max-w-6xl mx-auto">
-        <h2 className="text-2xl md:text-4xl font-bold text-center text-white mb-3">บริการที่คุณจะได้รับ</h2>
-        <p className="text-slate-400 text-sm md:text-base text-center mb-8">คลิกที่การ์ดบริการเพื่อดูรายละเอียดการส่งมอบงานเพิ่มเติม</p>
+      {/* Services Section */}
+      <section id="services" className="h-screen snap-start flex flex-col justify-center items-center pt-[65px] pb-8 px-6 max-w-6xl mx-auto">
+        <h2 className="text-2xl md:text-4xl font-bold text-center text-white mb-2">บริการที่คุณจะได้รับ</h2>
+        <p className="text-slate-400 text-sm md:text-base text-center mb-6">คลิกที่การ์ดบริการเพื่อดูรายละเอียดการส่งมอบงานเพิ่มเติม</p>
 
-        <div className="max-w-md w-full mx-auto mb-10">
+        <div className="max-w-md w-full mx-auto mb-6">
           <input
             type="text"
             placeholder="🔍 ค้นหาบริการ..."
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
-            className="bg-slate-900 border border-slate-800 text-white placeholder-slate-500 rounded-xl px-4 py-3 focus:border-cyan-400 w-full text-sm outline-none"
+            className="bg-slate-900 border border-slate-800 text-white placeholder-slate-500 rounded-xl px-4 py-2.5 focus:border-cyan-400 w-full text-sm outline-none"
           />
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
           {filteredServices.map((item) => (
-            <div key={item.id} onClick={() => setSelectedService(item)} className="cursor-pointer">
-              <ServiceCard title={item.title} description={item.description} price={item.price} tags={item.tags} />
-            </div>
+            <ServiceCard 
+              key={item.id} 
+              title={item.title} 
+              description={item.description} 
+              price={item.price} 
+              tags={item.tags}
+              onClick={() => setSelectedService(item)}
+            />
           ))}
         </div>
       </section>
 
-      {/* Service Detail Modal */}
+      {/* Detail Modal */}
       {selectedService && (
         <div className="fixed inset-0 bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-4 z-50">
           <div className="bg-slate-900 border border-slate-800 p-6 md:p-8 rounded-2xl max-w-lg w-full text-left shadow-2xl relative">
