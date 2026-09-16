@@ -10,15 +10,17 @@ export default function App() {
       description: "แพลตฟอร์มการเรียนรู้ออนไลน์ที่นำแนวคิดเกม RPG มาประยุกต์ใช้เพื่อเพิ่มความสนุกและแรงจูงใจ ออกแบบ User Flow, Wireframe และ Prototype บน Figma พร้อมพัฒนาระบบ Quiz Battle",
       tags: ["Figma", "HTML/CSS", "JavaScript", "Gamification"],
       linkText: "Live Demo",
-      linkUrl: "https://smartlearn-rpg.vercel.app/"
+      linkUrl: "https://smartlearn-rpg.vercel.app/",
+      figmaUrl: ""
     },
     {
       title: "Food Mamei",
       category: "UX/UI Design & Front-end Development",
       description: "เว็บไซต์สำหรับค้นหาและจัดการเมนูอาหาร ออกแบบ UX/UI Architecture บน Figma พร้อมพัฒนา Web App เชื่อมต่อ External Recipe API และ AI-Assisted Coding",
       tags: ["Figma", "React", "Tailwind CSS", "REST API"],
-      linkText: "Live Demo & Figma",
-      linkUrl: "https://foodmamei.vercel.app/"
+      linkText: "Live Demo",
+      linkUrl: "https://foodmamei.vercel.app/",
+      figmaUrl: "https://www.figma.com/design/ZjulxYfKObW7uMmdj3rPx/Untitled?node-id=0-1&t=Kb5biJ8XMQPPJeQX-1"
     },
     {
       title: "HoloVista",
@@ -26,7 +28,8 @@ export default function App() {
       description: "เว็บไซต์นำเสนอเทคโนโลยีโฮโลแกรม ออกแบบ Information Architecture และ Responsive Layout ให้นำเสนอข้อมูลที่ซับซ้อนให้อ่านง่าย พร้อมจัดทำ Interactive Prototype",
       tags: ["Figma", "UX Research", "Information Architecture", "Responsive Design"],
       linkText: "Figma Prototype",
-      linkUrl: "https://www.figma.com/design/sK0dyZHRRHM9NJ8p8ulj0Z/HoloVista?node-id=0-1&t=HysPQqYXwKfneXuE-1"
+      linkUrl: "https://www.figma.com/design/sK0dyZHRRHM9NJ8p8ulj0Z/HoloVista?node-id=0-1&t=HysPQqYXwKfneXuE-1",
+      figmaUrl: ""
     },
     {
       title: "DevPortfolio",
@@ -34,7 +37,8 @@ export default function App() {
       description: "เว็บไซต์พอร์ตโฟลิโอส่วนตัว พัฒนาด้วย React และ Tailwind CSS จัดการ State Management และทดสอบระบบ Responsive Design ให้ใช้งานได้อย่างลื่นไหล",
       tags: ["React", "Tailwind CSS", "Vite", "Git/GitHub"],
       linkText: "Live Demo",
-      linkUrl: "https://my-react-portfolio-rust-sigma.vercel.app/"
+      linkUrl: "https://my-react-portfolio-rust-sigma.vercel.app/",
+      figmaUrl: ""
     }
   ];
 
@@ -81,15 +85,27 @@ export default function App() {
                 </div>
               </div>
 
-              <div>
+              {/* ปุ่มลิงก์ผลงานแยกส่วน */}
+              <div className="flex flex-wrap gap-3 pt-2">
                 <a 
                   href={project.linkUrl} 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="inline-flex items-center text-sm font-medium text-purple-400 hover:text-purple-300 transition-colors"
+                  className="inline-flex items-center text-xs font-medium px-3.5 py-2 bg-purple-600 hover:bg-purple-500 text-white rounded-lg transition-colors shadow-sm"
                 >
-                  🔗 ดูผลงาน ({project.linkText}) →
+                  🔗 {project.linkText}
                 </a>
+
+                {project.figmaUrl && (
+                  <a 
+                    href={project.figmaUrl} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center text-xs font-medium px-3.5 py-2 bg-slate-800 hover:bg-slate-700 text-purple-300 rounded-lg border border-purple-500/30 transition-colors shadow-sm"
+                  >
+                    🎨 Figma File
+                  </a>
+                )}
               </div>
             </div>
           ))}
