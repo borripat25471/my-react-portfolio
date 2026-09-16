@@ -20,7 +20,7 @@ export default function App() {
       tags: ["Figma", "React", "Tailwind CSS", "REST API"],
       linkText: "Live Demo",
       linkUrl: "https://foodmamei.vercel.app/",
-      figmaUrl: "https://www.figma.com/design/ZjulxYfKObW7uMmdj3rPx/Untitled?node-id=0-1&t=Kb5biJ8XMQPPJeQX-1"
+      figmaUrl: "https://www.figma.com/design/ZjulxYfKioBw7uMmdj3rPx/Untitled?node-id=0-1&p=f&t=UUnOCfkMfFisi5TZ-0"
     },
     {
       title: "HoloVista",
