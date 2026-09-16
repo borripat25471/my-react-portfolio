@@ -30,15 +30,6 @@ export default function App() {
       linkText: "Figma Prototype",
       linkUrl: "https://www.figma.com/design/sK0dyZHRRHM9NJ8p8ulj0Z/HoloVista?node-id=0-1&t=HysPQqYXwKfneXuE-1",
       figmaUrl: ""
-    },
-    {
-      title: "DevPortfolio",
-      category: "Front-end Development & UI Implementation",
-      description: "เว็บไซต์พอร์ตโฟลิโอส่วนตัว พัฒนาด้วย React และ Tailwind CSS จัดการ State Management และทดสอบระบบ Responsive Design ให้ใช้งานได้อย่างลื่นไหล",
-      tags: ["React", "Tailwind CSS", "Vite", "Git/GitHub"],
-      linkText: "Live Demo",
-      linkUrl: "https://my-react-portfolio-rust-sigma.vercel.app/",
-      figmaUrl: ""
     }
   ];
 
