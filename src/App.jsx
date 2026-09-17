@@ -31,7 +31,7 @@ export default function App() {
       linkUrl: "https://www.figma.com/design/sK0dyZHRRHM9NJ8p8ulj0Z/HoloVista?node-id=0-1&t=HysPQqYXwKfneXuE-1",
       figmaUrl: ""
       
-    }
+    },
     {
       title: "ดดดดดด",
       category: "UX/UI Design",
