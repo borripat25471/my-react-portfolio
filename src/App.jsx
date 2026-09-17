@@ -84,7 +84,7 @@ export default function App() {
                   rel="noopener noreferrer"
                   className="inline-flex items-center text-xs font-medium px-3.5 py-2 bg-purple-600 hover:bg-purple-500 text-white rounded-lg transition-colors shadow-sm"
                 >
-                  🔗 {project.linkText}
+                   {project.linkText}
                 </a>
 
                 {project.figmaUrl && (
@@ -94,7 +94,7 @@ export default function App() {
                     rel="noopener noreferrer"
                     className="inline-flex items-center text-xs font-medium px-3.5 py-2 bg-slate-800 hover:bg-slate-700 text-purple-300 rounded-lg border border-purple-500/30 transition-colors shadow-sm"
                   >
-                    🎨 Figma File
+                     Figma File
                   </a>
                 )}
               </div>
