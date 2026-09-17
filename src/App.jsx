@@ -41,7 +41,27 @@ export default function App() {
       linkUrl: "https://www.figma.com/design/sK0dyZHRRHM9NJ8p8ulj0Z/HoloVista?node-id=0-1&t=HysPQqYXwKfneXuE-1",
       figmaUrl: ""
       
-    }
+    },
+    {
+      title: "ดดดดดด",
+      category: "UX/UI Design",
+      description: "เว็บไซต์นำเสนอเทคโนโลยีโฮโลแกรม ออกแบบ Information Architecture และ Responsive Layout ให้นำเสนอข้อมูลที่ซับซ้อนให้อ่านง่าย พร้อมจัดทำ Interactive Prototype",
+      tags: ["Figma", "UX Research", "Information Architecture", "Responsive Design"],
+      linkText: "Figma Prototype",
+      linkUrl: "https://www.figma.com/design/sK0dyZHRRHM9NJ8p8ulj0Z/HoloVista?node-id=0-1&t=HysPQqYXwKfneXuE-1",
+      figmaUrl: ""
+      
+    },
+    {
+      title: "ดดดดดด",
+      category: "UX/UI Design",
+      description: "เว็บไซต์นำเสนอเทคโนโลยีโฮโลแกรม ออกแบบ Information Architecture และ Responsive Layout ให้นำเสนอข้อมูลที่ซับซ้อนให้อ่านง่าย พร้อมจัดทำ Interactive Prototype",
+      tags: ["Figma", "UX Research", "Information Architecture", "Responsive Design"],
+      linkText: "Figma Prototype",
+      linkUrl: "https://www.figma.com/design/sK0dyZHRRHM9NJ8p8ulj0Z/HoloVista?node-id=0-1&t=HysPQqYXwKfneXuE-1",
+      figmaUrl: ""
+      
+    },
   ];
 
   const filteredProjects = projectsData.filter(project => 
