@@ -10,7 +10,7 @@ export default function App() {
       description: "แพลตฟอร์มการเรียนรู้ออนไลน์ที่นำแนวคิดเกม RPG มาประยุกต์ใช้เพื่อเพิ่มความสนุกและแรงจูงใจ ออกแบบ User Flow, Wireframe และ Prototype บน Figma พร้อมพัฒนาระบบ Quiz Battle",
       tags: ["Figma", "HTML/CSS", "JavaScript", "Gamification"],
       linkText: "Live Demo",
-      linkUrl: "https://smartlearn-rpg.vercel.app/",
+      linkUrl: "https://smart-learn-rpg.vercel.app/",
       figmaUrl: ""
     },
     {
