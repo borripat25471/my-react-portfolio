@@ -33,7 +33,7 @@ export default function App() {
       
     }
     {
-      title: "HoloVista",
+      title: "ดดดดดด",
       category: "UX/UI Design",
       description: "เว็บไซต์นำเสนอเทคโนโลยีโฮโลแกรม ออกแบบ Information Architecture และ Responsive Layout ให้นำเสนอข้อมูลที่ซับซ้อนให้อ่านง่าย พร้อมจัดทำ Interactive Prototype",
       tags: ["Figma", "UX Research", "Information Architecture", "Responsive Design"],
