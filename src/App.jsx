@@ -19,7 +19,7 @@ export default function App() {
       description: "เว็บไซต์สำหรับค้นหาและจัดการเมนูอาหาร ออกแบบ UX/UI Architecture บน Figma พร้อมพัฒนา Web App เชื่อมต่อ External Recipe API และ AI-Assisted Coding",
       tags: ["Figma", "React", "Tailwind CSS", "REST API"],
       linkText: "Live Demo",
-      linkUrl: "https://foodmamei.vercel.app/",
+      linkUrl: "https://foodmamei-3wjb.vercel.app/",
       figmaUrl: "https://www.figma.com/design/ZjulxYfKioBw7uMmdj3rPx/Untitled?node-id=0-1&p=f&t=UUnOCfkMfFisi5TZ-0"
     },
     {
