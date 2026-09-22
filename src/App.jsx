@@ -33,10 +33,10 @@ export default function App() {
       
     },
     {
-      title: "ดดดดดด",
+      title: "Food Delivery App",
       category: "UX/UI Design",
-      description: "เว็บไซต์นำเสนอเทคโนโลยีโฮโลแกรม ออกแบบ Information Architecture และ Responsive Layout ให้นำเสนอข้อมูลที่ซับซ้อนให้อ่านง่าย พร้อมจัดทำ Interactive Prototype",
-      tags: ["Figma", "UX Research", "Information Architecture", "Responsive Design"],
+      description: "แอปพลิเคชันสั่งอาหารที่ออกแบบเน้นความรวดเร็วและใช้งานง่าย จัดการ Information Architecture และ Flow การสั่งอาหารให้ราบรื่น พร้อมทำ Interactive Prototype",
+      tags: ["Figma", "UX Research", "UI Design", "Mobile App"],
       linkText: "Figma Prototype",
       linkUrl: "https://www.figma.com/design/wmjGC0JPnttQy1s63yzcJM/resuuu-food-app?node-id=0-1&t=h2x1QoDkS6Stt223-1",
       figmaUrl: ""
