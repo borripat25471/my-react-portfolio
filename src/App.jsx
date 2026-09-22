@@ -76,16 +76,7 @@ export default function App() {
         <h2 className="text-3xl md:text-5xl font-bold text-center text-white mb-3">Featured Projects</h2>
         <p className="text-slate-400 text-sm md:text-base text-center mb-8">รวมผลงานการออกแบบ UX/UI และการพัฒนาเว็บแอปพลิเคชัน</p>
         
-        {/* ช่องค้นหาโปรเจกต์ */}
-        <div className="max-w-md w-full mx-auto mb-10">
-          <input
-            type="text"
-            placeholder="🔍 ค้นหาโปรเจกต์, แท็ก หรือทักษะ..."
-            value={searchTerm}
-            onChange={(e) => setSearchTerm(e.target.value)}
-            className="w-full bg-slate-900 border border-slate-800 text-white placeholder-slate-500 rounded-xl px-4 py-3 focus:outline-none focus:border-purple-500 transition-colors shadow-lg"
-          />
-        </div>
+        
 
         {/* แสดงผลการ์ดโปรเจกต์ */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
