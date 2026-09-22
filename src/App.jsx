@@ -11,7 +11,7 @@ export default function App() {
       tags: ["Figma", "HTML/CSS", "JavaScript", "Gamification"],
       linkText: "Live Demo",
       linkUrl: "https://smart-learn-rpg.vercel.app/",
-      figmaUrl: ""
+      figmaUrl: "https://www.figma.com/design/xWlv3p4qbw84mx5e55DpYM/Untitled?node-id=0-1&t=4EuzfSBtmk8XuMDS-1"
     },
     {
       title: "Food Mamei",
