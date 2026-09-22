@@ -38,7 +38,7 @@ export default function App() {
       description: "เว็บไซต์นำเสนอเทคโนโลยีโฮโลแกรม ออกแบบ Information Architecture และ Responsive Layout ให้นำเสนอข้อมูลที่ซับซ้อนให้อ่านง่าย พร้อมจัดทำ Interactive Prototype",
       tags: ["Figma", "UX Research", "Information Architecture", "Responsive Design"],
       linkText: "Figma Prototype",
-      linkUrl: "https://www.figma.com/design/sK0dyZHRRHM9NJ8p8ulj0Z/HoloVista?node-id=0-1&t=HysPQqYXwKfneXuE-1",
+      linkUrl: "https://www.figma.com/design/wmjGC0JPnttQy1s63yzcJM/resuuu-food-app?node-id=3-8&t=wuuSbeBSTqtHS8zQ-1",
       figmaUrl: ""
       
     },
