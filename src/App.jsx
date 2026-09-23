@@ -28,7 +28,7 @@ export default function App() {
       description: "เว็บไซต์นำเสนอเทคโนโลยีโฮโลแกรม ออกแบบ Information Architecture และ Responsive Layout ให้นำเสนอข้อมูลที่ซับซ้อนให้อ่านง่าย พร้อมจัดทำ Interactive Prototype",
       tags: ["Figma", "UX Research", "Information Architecture", "Responsive Design"],
       linkText: "Figma Prototype",
-      linkUrl: "https://www.figma.com/design/sK0dyZHRRHM9NJ8p8ulj0Z/HoloVista?node-id=0-1&t=HysPQqYXwKfneXuE-1",
+      linkUrl: "https://www.figma.com/proto/sK0dyZHRRHM9NJ8p8ulj0Z/HoloVista?node-id=70-40&t=eih1gCOKJHyTDZKV-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1",
       figmaUrl: ""
       
     },
@@ -38,7 +38,7 @@ export default function App() {
       description: "แอปพลิเคชันสั่งอาหารที่ออกแบบเน้นความรวดเร็วและใช้งานง่าย จัดการ Information Architecture และ Flow การสั่งอาหารให้ราบรื่น พร้อมทำ Interactive Prototype",
       tags: ["Figma", "UX Research", "UI Design", "Mobile App"],
       linkText: "Figma Prototype",
-      linkUrl: "https://www.figma.com/design/wmjGC0JPnttQy1s63yzcJM/resuuu-food-app?node-id=0-1&t=h2x1QoDkS6Stt223-1",
+      linkUrl: "https://www.figma.com/proto/wmjGC0JPnttQy1s63yzcJM/food-app?node-id=3-9&p=f&t=1g4zsWs4x5LrDD2q-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1",
       figmaUrl: ""
       
     },
