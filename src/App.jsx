@@ -54,7 +54,7 @@ export default function App() {
   return (
     <div className="bg-slate-950 text-slate-100 font-sans antialiased min-h-screen">
       <section id="projects" className="min-h-screen snap-start flex flex-col justify-center items-center py-12 px-6 max-w-6xl mx-auto">
-        <h2 className="text-3xl md:text-5xl font-bold text-center text-white mb-3">Featured Projects</h2>
+        <h2 className="text-3xl md:text-5xl font-bold text-center text-white mb-3">Featured Projects BY BORIPHAT NAMCHANG</h2>
         <p className="text-slate-400 text-sm md:text-base text-center mb-8">รวมผลงานการออกแบบ UX/UI และการพัฒนาเว็บแอปพลิเคชัน</p>
         
         
