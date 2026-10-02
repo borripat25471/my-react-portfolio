@@ -14,7 +14,7 @@ export default function App() {
       figmaUrl: "https://www.figma.com/design/xWlv3p4qbw84mx5e55DpYM/Untitled?node-id=0-1&t=4EuzfSBtmk8XuMDS-1"
     },
     {
-      title: "Food Mamei",
+      title: "Fin Food",
       category: "UX/UI Design & Front-end Development",
       description: "เว็บไซต์สำหรับค้นหาและจัดการเมนูอาหาร ออกแบบ UX/UI Architecture บน Figma พร้อมพัฒนา Web App เชื่อมต่อ External Recipe API และ AI-Assisted Coding",
       tags: ["Figma", "React", "Tailwind CSS", "REST API"],
