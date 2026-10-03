@@ -15,9 +15,9 @@ export default function App() {
     },
     {
       title: "Fin Food",
-      category: "UX/UI Design & Front-end Development",
-      description: "เว็บไซต์สำหรับค้นหาและจัดการเมนูอาหาร ออกแบบ UX/UI Architecture บน Figma พร้อมพัฒนา Web App เชื่อมต่อ External Recipe API และ AI-Assisted Coding",
-      tags: ["Figma", "React", "Tailwind CSS", "REST API"],
+      category: "Web Application Development",
+      description: "เว็บแอปพลิเคชันสำหรับร้านอาหาร รองรับการจัดการเมนูและการค้นหาข้อมูลอาหาร ออกแบบระบบโดยเน้น User Experience ที่ใช้งานง่าย พัฒนาต่อยอดเพื่อใช้งานจริงในธุรกิจร้านค้า",
+      tags: [ "React", "Tailwind CSS", "REST API"],
       linkText: "Live Demo",
       linkUrl: "https://finfriut.vercel.app/",
       figmaUrl: ""
