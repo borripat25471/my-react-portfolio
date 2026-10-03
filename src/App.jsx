@@ -19,7 +19,7 @@ export default function App() {
       description: "เว็บไซต์สำหรับค้นหาและจัดการเมนูอาหาร ออกแบบ UX/UI Architecture บน Figma พร้อมพัฒนา Web App เชื่อมต่อ External Recipe API และ AI-Assisted Coding",
       tags: ["Figma", "React", "Tailwind CSS", "REST API"],
       linkText: "Live Demo",
-      linkUrl: "",
+      linkUrl: "https://finfriut.vercel.app/",
       figmaUrl: ""
     },
     {
