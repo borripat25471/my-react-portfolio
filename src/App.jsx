@@ -11,7 +11,8 @@ export default function App() {
       tags: ["Figma", "HTML/CSS", "JavaScript", "Gamification"],
       linkText: "Live Demo",
       linkUrl: "https://smart-learn-rpg.vercel.app/",
-      figmaUrl: "https://www.figma.com/design/xWlv3p4qbw84mx5e55DpYM/Untitled?node-id=0-1&t=4EuzfSBtmk8XuMDS-1"
+      figmaUrl: "https://www.figma.com/design/xWlv3p4qbw84mx5e55DpYM/Untitled?node-id=0-1&t=4EuzfSBtmk8XuMDS-1",
+      githubUrl: "https://github.com/borripat25471/SmartLearn-RPG",
     },
     {
       title: "Fin Food",
@@ -20,7 +21,8 @@ export default function App() {
       tags: [ "React", "Tailwind CSS", "REST API"],
       linkText: "Live Demo",
       linkUrl: "https://finfriut.vercel.app/",
-      figmaUrl: ""
+      figmaUrl: "",
+      githubUrl: "https://github.com/borripat25471/finfriut",
     },
     {
       title: "HoloVista",
