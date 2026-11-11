@@ -102,6 +102,16 @@ export default function App() {
                      Figma File
                   </a>
                 )}
+                {project.githubUrl && (
+  <a
+    href={project.githubUrl}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-flex items-center text-xs font-medium px-3.5 py-2 bg-slate-800 hover:bg-slate-700 text-purple-300 rounded-lg"
+  >
+    GitHub
+  </a>
+)}
               </div>
             </div>
           ))}
