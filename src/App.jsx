@@ -59,9 +59,7 @@ export default function App() {
             Portfolio
           </span>
           <ul className="flex space-x-8 text-sm font-medium text-slate-300">
-            <li className="hover:text-cyan-400 cursor-pointer transition-colors duration-300">Home</li>
-            <li className="hover:text-cyan-400 cursor-pointer transition-colors duration-300">Projects</li>
-            <li className="hover:text-cyan-400 cursor-pointer transition-colors duration-300">Contact</li>
+            
           </ul>
         </div>
       </motion.nav>
