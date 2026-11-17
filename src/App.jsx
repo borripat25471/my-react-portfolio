@@ -9,9 +9,9 @@ export default function App() {
       description: "แพลตฟอร์มการเรียนรู้ออนไลน์ที่นำแนวคิดเกม RPG มาประยุกต์ใช้เพื่อเพิ่มความสนุกและแรงจูงใจ ออกแบบ User Flow, Wireframe และ Prototype บน Figma พร้อมพัฒนาระบบ Quiz Battle",
       tags: ["Figma", "HTML/CSS", "JavaScript", "Gamification"],
       links: [
-        { name: "Live Demo", primary: true },
-        { name: "Figma File", primary: false },
-        { name: "GitHub", primary: false }
+        { name: "Live Demo", url: "https://smart-learn-rpg.vercel.app/", primary: true },
+        { name: "Figma File", url: "https://www.figma.com/design/xWlv3p4qbw84mx5e55DpYM/SmartLeran-RPG?node-id=0-1&t=5ZXwbTsKPOkxfHee-1", primary: false },
+        { name: "GitHub", url: "https://github.com/borripat25471/SmartLearn-RPG", primary: false }
       ]
     },
     {
@@ -20,8 +20,8 @@ export default function App() {
       description: "เว็บแอปพลิเคชันสำหรับร้านอาหาร รองรับการจัดการเมนูและการค้นหาข้อมูลอาหาร ออกแบบระบบโดยเน้น User Experience ที่ใช้งานง่าย พัฒนาต่อยอดเพื่อใช้งานจริงในธุรกิจร้านค้า",
       tags: ["React", "Tailwind CSS", "REST API"],
       links: [
-        { name: "Live Demo", primary: true },
-        { name: "GitHub", primary: false }
+        { name: "Live Demo", url: "https://finfriut.vercel.app/", primary: true },
+        { name: "GitHub", url: "https://github.com/borripat25471/finfriut", primary: false }
       ]
     },
     {
@@ -30,7 +30,7 @@ export default function App() {
       description: "เว็บไซต์นำเสนอเทคโนโลยีโฮโลแกรม ออกแบบ Information Architecture และ Responsive Layout ให้นำเสนอข้อมูลที่ซับซ้อนให้อ่านง่าย พร้อมจัดทำ Interactive Prototype",
       tags: ["Figma", "UX Research", "Information Architecture", "Responsive Design"],
       links: [
-        { name: "Figma Prototype", primary: true }
+        { name: "Figma Prototype", url: "https://www.figma.com/proto/sK0dyZHRRHM9NJ8p8ulj0Z/HoloVista?node-id=70-40&t=MJsYm4Ufh6gEArXn-1", primary: true }
       ]
     },
     {
@@ -39,7 +39,7 @@ export default function App() {
       description: "แอปพลิเคชันสั่งอาหารที่ออกแบบเน้นความรวดเร็วและใช้งานง่าย จัดการ Information Architecture และ Flow การสั่งอาหารให้ราบรื่น พร้อมทำ Interactive Prototype",
       tags: ["Figma", "UX Research", "UI Design", "Mobile App"],
       links: [
-        { name: "Figma Prototype", primary: true }
+        { name: "Figma Prototype", url: "https://www.figma.com/proto/wmjGC0JPnttQy1s63yzcJM/food-app?node-id=3-9&t=dEgZHI4Fi1Ls9zxK-1", primary: true }
       ]
     }
   ];
@@ -125,16 +125,19 @@ export default function App() {
               {/* Links/Buttons */}
               <div className="flex flex-wrap gap-3 mt-auto">
                 {project.links.map((link, idx) => (
-                  <button 
+                  <a 
                     key={idx}
-                    className={`px-5 py-2.5 rounded-lg text-sm font-bold transition-all duration-200 transform hover:scale-105 ${
+                    href={link.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={`inline-block px-5 py-2.5 rounded-lg text-sm font-bold transition-all duration-200 transform hover:scale-105 text-center ${
                       link.primary 
                         ? "bg-[#9333ea] text-white hover:bg-[#a855f7] hover:shadow-[0_0_15px_rgba(168,85,247,0.4)]" 
                         : "bg-slate-800 text-slate-200 hover:bg-slate-700"
                     }`}
                   >
                     {link.name}
-                  </button>
+                  </a>
                 ))}
               </div>
             </motion.div>
