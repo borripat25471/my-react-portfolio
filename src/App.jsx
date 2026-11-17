@@ -56,7 +56,7 @@ export default function App() {
       >
         <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
           <span className="text-2xl font-black text-cyan-400">
-            Portfolio.
+            Portfolio
           </span>
           <ul className="flex space-x-8 text-sm font-medium text-slate-300">
             <li className="hover:text-cyan-400 cursor-pointer transition-colors duration-300">Home</li>
@@ -88,7 +88,7 @@ export default function App() {
             transition={{ duration: 0.7, delay: 0.4 }}
             className="text-lg text-slate-400 max-w-2xl leading-relaxed"
           >
-            เปลี่ยนไอเดียให้กลายเป็นหน้าเว็บที่สวยงาม ใช้งานง่าย และทำงานได้อย่างรวดเร็ว ด้วย React และ Tailwind CSS
+            By Boriphat Namchang
           </motion.p>
         </div>
 
